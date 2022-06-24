@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Bootstrap Example</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+
+      <!-- Custom styles for this template -->
+      <link href="css/navbar-fixed-top.css" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+         <div class="container">
+            <div class="navbar-header">
+
+               <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-ok-circle"></span>KENALAN</a>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+               <ul class="nav navbar-nav">
+
+            </div><!--/.nav-collapse -->
+         </div>
+      </nav>
+
+      <div class="container">
+         <div class="well" id="masterC">
+            <div class="row">
+               <div class="table-responsive">
+                  <a class="btn btn-primary" href="#btnAddKenalan" role="button"><span class="glyhpicon glyphicon-plus"></span></a>
+                  <table id="maintable" class="table table-striped">
+                     <thead>
+                     </thead>
+                     <tbody>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </div>
+
+         <div class="well" id="divFrmAddKenalan">
+            <div class="row">
+               <div class="col-sm-6">
+                  <form class="form-signin" id="frmAddKenalan">
+                     <h2> Enter Contact Details </h2><br>
+
+                     <input type="text" id="firstname" name="firstname" size="50" placeholder="First Name" required><br><br>
+            
+                     <input type="text" id="lastname" name="lastname" size="50" placeholder="Last Name" required><br><br>
+
+                     <input type="text" id="nickname" name="nickname" size="50" placeholder="Nick Name" required><br><br>
+            
+                     <input type="text" id="phoneno" name="phoneno" size="50" placeholder="Phone Num" required><br><br>
+         
+                     <input type="text" id="contactemail" name="contactemail" size="50" placeholder="Email" required><br><br>
+
+                     <br>
+                     <button class="btn btn-lg btn-success" type="submit">Save Contact</button>           
+                     <button class="btn btn-lg btn-info" type="reset">Reset</button>
+                     <br><br><br>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <nav class="navbar navbar-default navbar-fixed-bottom">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">   
+                  Footer        
+               </div>
+            </div>
+         </div>
+      </nav>
+         
+
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/signals.min.js"></script>
+      <script src="js/hasher.min.js"></script>
+      <script src="js/crossroads.min.js"></script>
+      <script src="js/index.js"></script>
+   </body>
+</html>
